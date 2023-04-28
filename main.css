@@ -6,9 +6,16 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     font-family: "Italianno", sans-serif;
+    font-style: normal;
+    font-weight: 400;
 
 }
 header {
@@ -18,6 +25,10 @@ header {
     flex-direction: column;
 }
 
+section {
+    max-width: 988px;
+
+}
 
 .top-header h1 {
     font-style: normal;
@@ -53,11 +64,168 @@ header {
     margin-right: 88px;
     margin-top: 40px;
     padding-bottom: 7px;
-    font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     border-bottom: 1px solid #FCAC45
 
 }
 
+.image-restaurant {
+    margin-top: 62px;
+}
+
+.button {
+    display: flex;
+    color: #000000;
+    text-decoration: none;
+    border: 1px solid #000000;
+    width: 101px;
+    height: 29px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 43px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 200px;
+}
+
+.about div {
+    padding-right: 116px;
+
+}
+
+.about div h2 {
+    margin-bottom: 22px;
+    font-size: 35px;
+    line-height: 44px;
+    text-decoration: underline #FCAC45;
+    text-underline-offset: 4px;
+text-decoration-thickness: 1px;
+}
+.about-text {
+    margin-bottom: 22px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+flex-direction: column;
+    margin-top: 166px;
+}
+
+
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-text {
+    display: flex;
+    padding-left: 112px;
+    flex-direction: column;
+    align-items: center;
+    height: 142px;
+    justify-content: space-between;
+}
+
+.menu h2 {
+    margin-bottom: 90px;
+    font-size: 35px;
+    line-height: 44px;
+}
+
+.menu-text h4 {
+    font-size: 45px;
+    line-height: 56px;
+}
+
+.ingredients {
+    font-size: 15px;
+    line-height: 18px;
+}
+.price {
+    font-size: 17px;
+    line-height: 20px;
+}
+
+hr {
+    width: 980px;
+    border: 1px solid #FCAC45;
+    margin: 53px auto;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 120px;
+    height: 242px;
+    width: 1200px;
+    justify-content: space-evenly;
+    border-top: 1px solid #FCAC45;
+}
+
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px;
+    height: 106px;
+    justify-content: space-evenly;
+
+
+
+}
+
+.opening {
+    display: flex;
+    width: 200px;
+    height: 139px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.sociale {
+    display: flex;
+    width: 62px;
+    height: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer p {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.soc {
+    display: flex;
+    width: 56px;
+    height: 57px;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer h2 {
+    font-size: 27px;
+    line-height: 34px;
+}
+.divider {
+height: 163px;
+    border-right: 1px solid #FCAC45;
+    width: 1px;
+}
